@@ -1,0 +1,47 @@
+@charset "utf-8"
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 15px;
+}
+
+header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+   width: 920px;
+   margin: 50px auto;
+   text-align: center;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.header-nav {
+  width: 920px;
+  background-color: #000;
+  padding: 20px 0;
+}
+
+.header-nav:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-nav li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-nav li a {
+  color: #CCC;
+  text-decoration: none;
+    font-size: 15px;
+}
