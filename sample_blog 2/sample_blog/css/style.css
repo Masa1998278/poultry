@@ -1,0 +1,205 @@
+@charset "utf-8"
+
+body {
+background-color: #FFF;
+color: #000;
+font-size: 15px;
+}
+
+p, h1, h2, h3, h4, h5 {
+margin: 0 0 auto 0;
+padding: 0;
+}
+
+header {
+margin-top: 20px
+}
+
+.container {
+width: 920px;
+margin: 0px auto;
+}
+
+.header-logo {
+width: 100%;
+padding: 40px 0px ;
+text-align: center;
+}
+
+.logo {
+font-size: 32px;
+}
+
+.header-nav {
+width: 100%;
+background-color: #000;
+padding: 20px 0;
+}
+
+.header-nav:after {
+clear: both;
+display: block;
+content: " ";
+}
+
+.header-nav li {
+float: left;
+padding: 0 30px;
+text-align: center;
+list-style-type: none;
+}
+
+.header-nav li a {
+color: #CCC;
+text-decoration: none;
+font-size: 15px;
+}
+
+.wrap {
+margin-top: 20px;
+}
+
+.wrap .container {
+width: 920px;
+margin: 25px auto;
+border-bottom: 2px solid #C0C0C0;
+}
+
+.clearfix::after {
+content: "";
+display: block;
+clear: both;
+}
+
+.left-contents {
+width: 600px;
+margin-right: 20px;
+margin-bottom: 40px;
+float: left;
+}
+
+.right-contents {
+width: 300px;
+float: left;
+}
+
+.right-contents:after {
+clear: both;
+display: block;
+content: " ";
+}
+
+.blog-contents {
+width: 100%;
+margin-bottom: 10px;
+}
+
+.blog-contents:after {
+clear: both;
+display: block;
+content: " ";
+}
+
+.pic-area {
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.left-contents .pic-area {
+width:150px;
+height: 150px;
+border: 2px solid #C0C0C0;
+}
+
+.right-contents .pic-area {
+width:50px;
+height: 50px;
+border: 1px solid #C0C0C0;
+}
+
+.left-contents img {
+width:150px;
+height: auto;
+}
+
+.right-contents img {
+width:50px;
+height: auto;
+}
+
+
+.info {
+float: left;
+}
+
+.left-contents .info {
+width: 440px;
+margin-left:6px ;
+}
+
+.right-contents .info {
+width: 245px;
+margin-left: 3px;
+}
+
+.left-contents .date {
+font-size: 15px;
+}
+
+.right-contents .date {
+font-size: 1px;
+}
+
+a {
+text-decoration: none;
+}
+
+
+.left-contents .title {
+font-size: 27px;
+}
+
+
+.right-contents .title {
+font-size: 3px;
+}
+
+.left-contents .contents {
+font-size: 27px;
+}
+
+.right-contents .contents {
+font-size: 3px;
+}
+
+.title-area {
+margin-bottom: 10px;
+border-bottom: 2px solid #C0C0C0;
+}
+
+.right-contents .logo {
+font-size: 25px;
+}
+
+.title-area after{
+border: none;
+}
+
+.wrap:after {
+clear: both;
+display: block;
+content: " ";
+}
+
+.footer {
+width: 920px;
+margin: 0px auto;
+}
+
+.copyright {
+color: black;
+font-size: 3px;
+text-align: center;
+}
